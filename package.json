@@ -7,12 +7,12 @@
   "author": "s-kugan (https://github.com/s-kugan)",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/s-kugan/-Learn-AI-MCP-Mobile-Testing.git"
+    "url": "git+https://github.com/s-kugan/Learn-AI-MCP-Mobile-Testing.git"
   },
   "bugs": {
-    "url": "https://github.com/s-kugan/-Learn-AI-MCP-Mobile-Testing/issues"
+    "url": "https://github.com/s-kugan/Learn-AI-MCP-Mobile-Testing/issues"
   },
-  "homepage": "https://github.com/s-kugan/-Learn-AI-MCP-Mobile-Testing#readme",
+  "homepage": "https://github.com/s-kugan/Learn-AI-MCP-Mobile-Testing#readme",
   "type": "commonjs",
   "engines": {
     "node": ">=22.12"
