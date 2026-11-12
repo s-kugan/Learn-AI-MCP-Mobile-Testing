@@ -1,0 +1,22 @@
+# mobilewright
+node_modules/
+/test-results/
+/playwright-report/
+/mobilewright-report/
+
+# local Claude Code settings (per machine)
+.claude/settings.local.json
+
+# screenshots / artifacts from test runs
+order-confirmation.png
+*.png
+!docs/**/*.png
+
+# secrets - never commit
+.env
+.env.*
+*.keystore
+*.jks
+
+# Google USB driver (install via Android Studio SDK Manager instead)
+usb_driver/

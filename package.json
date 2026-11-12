@@ -1,0 +1,44 @@
+{
+  "name": "learn-ai-mcp-mobile-testing",
+  "version": "1.0.0",
+  "description": "Mobile test automation for an Android app using mobile-mcp (AI-driven) and Mobilewright (scripted tests with page objects)",
+  "private": true,
+  "license": "MIT",
+  "author": "s-kugan (https://github.com/s-kugan)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/s-kugan/Learn-AI-MCP-Mobile-Testing.git"
+  },
+  "bugs": {
+    "url": "https://github.com/s-kugan/Learn-AI-MCP-Mobile-Testing/issues"
+  },
+  "homepage": "https://github.com/s-kugan/Learn-AI-MCP-Mobile-Testing#readme",
+  "type": "commonjs",
+  "engines": {
+    "node": ">=22.12"
+  },
+  "scripts": {
+    "test": "mobilewright test",
+    "test:order": "mobilewright test tests/order.spec.ts --reporter list",
+    "test:list": "mobilewright test --list",
+    "typecheck": "tsc -p .",
+    "report": "mobilewright show-report",
+    "devices": "mobilewright devices",
+    "doctor": "mobilewright doctor"
+  },
+  "keywords": [
+    "mobile-testing",
+    "android",
+    "mobilewright",
+    "mobile-mcp",
+    "mcp",
+    "page-object-model",
+    "test-automation"
+  ],
+  "devDependencies": {
+    "@mobilewright/test": "^0.0.69",
+    "@types/node": "^24.19.2",
+    "mobilewright": "^0.0.69",
+    "typescript": "^7.0.2"
+  }
+}
